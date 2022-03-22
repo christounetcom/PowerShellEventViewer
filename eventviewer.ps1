@@ -8,4 +8,4 @@ $FilterTable = @{
     'LogName' = $Logs
 }
 
-Get-WinEvent -ComputerName $ComputerName -FilterHashtable $FilterTable -ErrorAction 'SilentyContinue'
+Get-WinEvent -ComputerName $ComputerName -FilterHashtable $FilterTable -ErrorAction 'SilentlyContinue'
